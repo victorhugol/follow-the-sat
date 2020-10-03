@@ -5,7 +5,7 @@ class Entrada extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Center(
-        child: Text("Ola Mundo!"),
+        child: Text("Follow the SAT"),
       ),
     );
   }
