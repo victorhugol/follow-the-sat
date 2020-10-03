@@ -7,7 +7,19 @@ class Entrada extends StatelessWidget {
       backgroundColor: Color.fromRGBO(58, 93, 113, 1),
       body: Column(
         children: [
-          Text("data"),
+          SizedBox(
+            height: 40,
+          ),
+          Image(
+            image: AssetImage('assets/images/ftsa.png'),
+          ),
+          SizedBox(
+            height: 80,
+          ),
+          FlatButton(
+            onPressed: () {},
+            child: Container(color: Color.fromRGBO(255, 222, 89, 1)),
+          )
         ],
       ),
     );
