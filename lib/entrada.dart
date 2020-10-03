@@ -17,8 +17,15 @@ class Entrada extends StatelessWidget {
             height: 80,
           ),
           FlatButton(
-            onPressed: () {},
-            child: Container(color: Color.fromRGBO(255, 222, 89, 1)),
+            onPressed: () {
+              Navigator.pushNamed(context, '/second');
+            },
+            child: Container(
+              height: 50,
+              width: 200,
+              color: Color.fromRGBO(255, 222, 89, 1),
+              child: Center(child: Text("follow")),
+            ),
           )
         ],
       ),
